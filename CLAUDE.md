@@ -12,7 +12,7 @@
 - Python 3.10+
 - OpenCV, FFmpeg (영상 처리)
 - PyTorch (딥러닝)
-- LabelMe/Supervision (어노테이션)
+- LabelStudio/Supervision (어노테이션)
 
 **팀 규모**: 3명 협업
 
