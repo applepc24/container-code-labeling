@@ -107,7 +107,24 @@ git commit -m "feat: video1 어노테이션 50% 완료"
 # 4. push
 git push origin feature/video1-annotation
 
-# 5. Pull Request 생성 → 리뷰 후 main에 merge
+# 5. GitHub에서 Pull Request 생성
+#    - GitHub 페이지 접속
+#    - "Compare & pull request" 버튼 클릭
+#    - PR 제목/내용 작성 후 "Create pull request"
+
+# 6. 리뷰 후 Merge
+#    - 팀원이 리뷰 완료하면 "Merge pull request" 클릭
+#    - "Confirm merge" 클릭
+#    - "Delete branch" 버튼 클릭 (GitHub에서 원격 브랜치 삭제)
+
+# 7. 로컬에서 main 브랜치로 돌아가기
+git checkout main
+
+# 8. 최신 코드 받기 (merge된 내용 반영)
+git pull origin main
+
+# 9. 로컬 feature 브랜치 삭제 (선택사항)
+git branch -d feature/video1-annotation
 ```
 
 ---
