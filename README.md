@@ -174,7 +174,7 @@ git branch -d feature/video1-annotation
 
 - **Python 3.10+**
 - **OpenCV**: 영상 처리, 프레임 추출
-- **LabelMe/Supervision**: 바운딩 박스 어노테이션
+- **LabelStudio/Supervision**: 바운딩 박스 어노테이션
 - **PyTorch**: 추후 모델 학습용
 
 ---
