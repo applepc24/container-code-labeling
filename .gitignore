@@ -1,0 +1,157 @@
+# ========================================
+# Python 기본
+# ========================================
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+*.virtualenv
+
+# Python 캐시 및 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 배포 및 빌드
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 테스트 커버리지
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ========================================
+# ML 관련
+# ========================================
+# 모델 가중치 파일
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+
+# 학습 로그 및 체크포인트
+runs/
+wandb/
+lightning_logs/
+checkpoints/
+logs/
+tensorboard/
+mlruns/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ========================================
+# 영상 및 이미지 파일
+# ========================================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+
+# ========================================
+# 데이터 폴더 (용량이 큰 데이터는 Git에서 제외)
+# ========================================
+data/raw/
+data/frames/
+data/processed/
+data/videos/
+data/images/
+
+# 단, annotations는 추적할 수 있도록 제외하지 않음
+# data/annotations/ 는 .gitignore에 포함하지 않음
+
+# ========================================
+# 환경변수 및 설정 파일
+# ========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# 민감한 설정 파일
+config/secrets.yaml
+config/credentials.json
+secrets/
+
+# ========================================
+# IDE 및 에디터 설정
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================================
+# OS 관련
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# 기타
+# ========================================
+# 임시 파일
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# 압축 파일 (필요시 제외)
+*.zip
+*.tar.gz
+*.rar
