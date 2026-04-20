@@ -45,6 +45,7 @@ labeling_project/
 ├── notebooks/                 # Jupyter 노트북 (EDA, 실험)
 ├── tests/                     # 단위 테스트
 ├── requirements.txt           # Python 의존성 패키지
+├── .vscode/                   # VS Code 설정 (Ruff 포맷터, 추천 확장 등)
 ├── .gitignore                 # Git 제외 파일 목록
 ├── CLAUDE.md                  # 이 파일 (프로젝트 가이드라인)
 └── README.md                  # 프로젝트 설명 (사용자용)
@@ -234,8 +235,8 @@ pip install -r requirements.txt
 
 - **이슈 트래킹**: GitHub Issues 또는 Notion 사용
 - **문서화**: 주요 기능은 README.md에 사용법 정리
-- **코드 품질**: Black, isort, flake8 등 Linter 사용 권장
+- **코드 품질**: Ruff (포맷팅 + 린팅), Mypy (타입 체크) 사용
 
 ---
 
-**마지막 업데이트**: 2026-04-17
+**마지막 업데이트**: 2026-04-20
