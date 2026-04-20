@@ -74,36 +74,10 @@ mlruns/
 *.ipynb_checkpoints/
 
 # ========================================
-# 영상 및 이미지 파일
-# ========================================
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.tif
-*.svg
-*.ico
-
-# ========================================
 # 데이터 폴더 (용량이 큰 데이터는 Git에서 제외)
 # ========================================
-data/raw/
-data/frames/
-data/processed/
-data/videos/
-data/images/
-
-# 단, annotations는 추적할 수 있도록 제외하지 않음
-# data/annotations/ 는 .gitignore에 포함하지 않음
+data/*/raw/
+data/*/frames/
 
 # ========================================
 # 환경변수 및 설정 파일
