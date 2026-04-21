@@ -3,15 +3,15 @@
   "flags": {},
   "shapes": [
     {
-      "label": "container_code",
+      "label": "container",
       "points": [
         [
-          400.1675977653631,
-          104.86033519553071
+          275.5865921787709,
+          48.99441340782123
         ],
         [
-          471.67597765363126,
-          277.4860335195531
+          638.1564245810055,
+          357.3743016759777
         ]
       ],
       "group_id": null,
@@ -21,7 +21,7 @@
       "mask": null
     }
   ],
-  "imagePath": "frame_000000.jpg",
+  "imagePath": "frame_323400.jpg",
   "imageData": null,
   "imageHeight": 360,
   "imageWidth": 640

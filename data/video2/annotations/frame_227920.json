@@ -6,12 +6,12 @@
       "label": "container_code",
       "points": [
         [
-          400.1675977653631,
-          104.86033519553071
+          351.56424581005587,
+          75.25139664804468
         ],
         [
-          471.67597765363126,
-          277.4860335195531
+          447.6536312849162,
+          118.268156424581
         ]
       ],
       "group_id": null,
@@ -21,7 +21,7 @@
       "mask": null
     }
   ],
-  "imagePath": "frame_000000.jpg",
+  "imagePath": "frame_227920.jpg",
   "imageData": null,
   "imageHeight": 360,
   "imageWidth": 640
