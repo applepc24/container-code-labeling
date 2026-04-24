@@ -11,7 +11,7 @@ import cv2
   # python3 extract_frames.py \                                                                 
   #   --video ../../data/video1/raw/101.mp4 \
   #   --output ../../data/video1/frames \                                                       
-  #   --record-time 20260420                                                                    
+  #   --record-time 20260420  <-- 이건 본인이 작업한 폴더명을 직접넣어야합니다.                                                                  
   #
   # 간격 조절 (2초마다 1장)                                                                     
   # python3 extract_frames.py \                                                               
