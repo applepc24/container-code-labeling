@@ -1,0 +1,28 @@
+{
+  "version": "6.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "size_code",
+      "points": [
+        [
+          495.13966480446925,
+          160.7262569832402
+        ],
+        [
+          524.1899441340781,
+          193.6871508379888
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "frame_067760.jpg",
+  "imageData": null,
+  "imageHeight": 360,
+  "imageWidth": 640
+}
