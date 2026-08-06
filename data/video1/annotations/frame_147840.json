@@ -1,0 +1,64 @@
+{
+  "version": "6.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "points": [
+        [
+          4.333333333333336,
+          45.666666666666664
+        ],
+        [
+          73.0,
+          221.66666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "container_code",
+      "points": [
+        [
+          311.0,
+          97.0
+        ],
+        [
+          391.0,
+          132.33333333333331
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "container_code",
+      "points": [
+        [
+          477.6666666666667,
+          133.0
+        ],
+        [
+          406.33333333333337,
+          173.66666666666666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "frame_147840.jpg",
+  "imageData": null,
+  "imageHeight": 360,
+  "imageWidth": 640
+}
